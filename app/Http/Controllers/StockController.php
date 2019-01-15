@@ -272,6 +272,7 @@ class StockController extends Controller
 
     public function get_stock_count()
     {   
+        $data = array();
 
         $stock = \App\Models\StockDetail::get();
 
